@@ -11,7 +11,7 @@ describe('Filter Test', function () {
         );
 
         cy.get('input[id*="item-Spain"]').check({ force: true });
-        cy.wait(1000);
+        cy.wait(2000);
         cy.get('.product-card_productCard__text__location__7mX3y.vc-text-s').as(
             'filtered_items'
         );

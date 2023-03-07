@@ -3,7 +3,7 @@ name: E2E on Chrome
 on: [push]
 
 jobs: 
-  install: 
+  cypress-run: 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
