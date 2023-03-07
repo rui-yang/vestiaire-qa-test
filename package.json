@@ -1,0 +1,13 @@
+{
+  "name": "Vestiaire",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  },
+  "scripts": {
+    "test": "npx cypress run",
+    "cloudTest": "npx cypress run --record --key 8bc56831-0ce7-4144-9396-3f4d5483be5d"
+  }
+}
